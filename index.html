@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+        <h2>El club viejuner</h2>
+        <fieldset>
+            <legend>Tú</legend>
+            <label for="nombre" autofocus>Nombre: </label>
+            <input id="nombre" type="text" tabindex="1">
+            <br>
+            <label for="apellidos">Apellidos: </label>
+            <input id="aprellidos" type="text" tabindex="2">
+            <br>
+            <label for="edad">Edad: </label>
+            <input id="edad" type="number" tabindex="3">
+            <br>
+            <fieldset>
+                <legend>Sexo</legend>
+                <input type="radio" id="mujer" value="mujer" name="sexo">
+                <label for="mujer">Mujer</label>
+                <input type="radio" id="hombre" value="hombre" name="sexo">
+                <label for="hombre">Hombre</label>
+            </fieldset>
+            <br>
+            <label for="viejune">Me siento viejuner: </label>
+            <input id="viejuner" type="checkbox">
+            <br>
+            <br>
+            <label for="algo">Escribe algo sobre ti:</label>
+            <br>
+            <textarea id="algo" placeholder="Algo sobre ti"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Tus circunstancias</legend>
+            <label for="email">Correo electrónico: </label>
+            <input id="email" type="email">
+            <br>
+            <label for="telefono">Teléfono: </label>
+            <input id="telefono" type="tel">
+        </fieldset>
+        <br>
+        <fieldset>
+            <h3>Los ladronzuelos de bicicletas</h3>
+            <br>
+            <label for="dia">Día: </label>
+            <input id="dia" type="date">
+            <br>
+            <br>
+            <label for="hora">Hora: </label>
+            <input id="hora" type="time">
+            <br>
+            <br>
+            <label for="color">Color de la bicicleta: </label>
+            <input id="color" type="color">
+            <br>
+            <br>
+            <label for="precio">Rango de precios: </label>
+            <br>
+            <input id="precio" type="range" min="0" max="3000">
+            <br>
+            <br>
+            <label for="tipobicicleta">Tipo de bicicleta: </label>
+            <br>
+            <select name="tipobicicleta" id="tipobicicleta">
+                <optgroup label="Paseo">
+                    <option value="señorial">Señorial</option>
+                    <option value="anti-plebeyos">Anti-Plebeyos</option>
+                    <option value="porEncimaDelHombro">PorEncimaDelHombro</option>
+                </optgroup>
+                <optgroup label="Montaña">
+                    <option value="gamusinos">Gamusinos</option>
+                    <option value="hueleflores_premium">Hueleflores premium</option>
+                    <option value="Fango_lover">Fango lover</option>
+                </optgroup>
+                <optgroup label="Carreras">
+                    <option value="metroymedio">Metroymedio</option>
+                    <option value="tres_de_la_tarde">3 de la tarde. Fluorescente edition</option>
+                    <option value="grupitors">Grupitors</option>
+                </optgroup>
+            </select>
+            <br>
+            <br>
+            <label for="accesorios">Accesorios: </label>
+            <br>
+            <select name="accesorios" id="accesorios" siye="6" multiple>
+                <option value="ruedines">Ruedines</option>
+                <option value="pegatinas">Pegatinas</option>
+                <option value="cestita">Cestita</option>
+                <option value="bombaDeAire">Bomba de aire</option>
+                <option value="timbre">Timbre</option>
+                <option value="foco">Foco</option>
+            </select>
+            <br>
+            <br>
+            <br>
+            <label for="marcabicicleta">Marca de la bicicleta: </label>
+            <select name="marca" id="marcabicicleta">
+                <option value="specialized">Specialized</option>
+                <option value="trek">Trek</option>
+                <option value="merida">Merida</option>
+                <option value="scott">Scott</option>
+                <option value="giant">Giant</option>
+                <option value="cube">Cube</option>
+                <option value="lapierre">Lapierre</option>
+                <option value="orbea">Orbea</option>
+                <option value="cannondable">Cannondable</option>
+                <option value="bmc">BMC</option>
+                <option value="canyon">Canyon</option>
+                <option value="look">Look</option>
+                <option value="protek">Protek</option>
+                <option value="megamo">Megamo</option>
+                <option value="pinarello">Pinarello</option>
+                <option value="bianchi">Bianchi</option>
+                <option value="bh">BH</option>
+                <option value="factor">Factor</option>
+                <option value="ghost">Ghost</option>
+                <option value="cervelo">Cervélo</option>
+                <option value="argon">Argon</option>
+            </select>
+            <br>
+            <br>
+        </fieldset>
+        <input type="submit">
+        <input type="reset">
+    </form>
+</body>
+
+</html>
